@@ -1,0 +1,28 @@
+//-------------------- Base Colors --------------------//
+$primary: #eb0029;
+$secondary: #DB1a2a;
+$pink: #fef2f4;
+$gray: #333333;
+$black: #333333;
+$white: #ffffff;
+$gray_2: #e6e6e6;
+$border_color:#dddddd;
+
+
+
+//-------------------- Font Families --------------------//
+$font-main: 					 'Quicksan';
+//-------------------- Font Sizes --------------------//
+$font-large:                20px;
+$font-medium:               18px;
+$font-normal:               16px;
+$font-small:                14px;
+
+
+//-------------------- Responsive sizes -------------------- //
+$large-device-width: 1199px; // Large devices (desktops, less than 1200px)
+$medium-device-width: 991px; // Medium devices (tablets, less than 992px)
+$small-device-width: 767px;	// Small devices (landscape phones, less than 768px)
+$extra-small-device-width: 575px;	// Extra small devices (portrait phones, less than 576px)
+$super-extra-small-device-width: 320px;	// Super Extra small devices (portrait phones, less than 320px)
+
