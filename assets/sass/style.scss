@@ -112,6 +112,7 @@ p,a,span {
           font-weight: 400;
           letter-spacing: 0.8px;
           text-transform: uppercase;
+          font-family: "Oswald" !important;
         }
         &.active{
           a{
@@ -572,6 +573,10 @@ footer{
   }
   iframe{
     height: 100vh;
+    width: 100%;
+    @include mobile {
+      height: 300px;
+    }
   }
 }
 p.text-letter{
@@ -600,4 +605,118 @@ input.input-custom, textarea.input-custom{
   border: none;
   padding: 0 30px !important;
   margin-top: 10px;
+}
+
+.story{
+  background-color: #f7f7f7;
+  &-left{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    h4{
+      margin-top: 50px;
+      @include mobile{
+        margin-top: 0px;
+      }
+    }
+    h6{
+      color: $primary;
+    }
+    ul{
+      list-style-type: circle;
+      margin-left: 20px;
+      li{
+        margin: 10px 0;
+      }
+    }
+  }
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+
+.about-container{
+  &__left{
+
+    .new-post{
+
+      &__item{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+
+        img{
+          width: 80px !important;
+          height: auto;
+          object-fit: cover;
+        }
+        a{
+          color: $black;
+          font-size: 14px;
+          letter-spacing: 1.05px;
+          line-height: 10px !important;
+          &:hover{
+            color: $primary;
+          }
+        }
+        p{
+          font-size: 14px;
+          color: $black;
+        }
+      }
+    }
+  }
+
+  &__right{
+   
+    .posts{
+      &-item{
+        margin: 20px 0;
+        display: flex;
+        @include mobile{
+          flex-direction: column;
+          img{
+            width: 100% !important;
+            height: auto !important;
+            max-height: 200px;
+          }
+        }
+        .image{
+          overflow: hidden;
+          width: 280px;
+        }
+        img{
+          display: block;
+            width: 280px !important;
+            max-width: 280px !important;
+            max-height: 168px;
+            object-fit: cover;
+            transition: 0.4s;
+          &:hover{
+            -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+          }
+        }
+        a{
+          color:$black;
+          &:hover{
+            color: $primary;
+          }
+        }
+        p.author{
+          color: $gray;
+        }
+        p:last-child{
+          letter-spacing: 1.05px;
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
+
+.hidden{
+  overflow: hidden;
 }

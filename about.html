@@ -14,13 +14,9 @@
 
 <body>
   <header>
-    <div class="header-text__sale d-flex justify-content-center align-items-center">
-      <p>Ưu đãi nhất năm - chọn món nhé</p>
-    </div>
-
     <nav class="navbar sticky-top navbar-expand-lg mt-1 mb-1">
       <div class="container-fluid">
-        <a class="navbar-brand main-header__logo" href="#">Order Food</a>
+        <a class="navbar-brand main-header__logo" href="#">Food</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fas fa-bars"></i>
@@ -30,18 +26,6 @@
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Trang chủ</a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                SẢN PHẨM
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">sản phẩm mới</a>
-                <a class="dropdown-item" href="#">sản phẩm khuyến mãi</a>
-                <a class="dropdown-item" href="#">sản phẩm nổi bật</a>
-              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Giới thiệu</a>
@@ -61,7 +45,6 @@
               <div class="cart-number"><span>0</span></div>
             </li>
           </ul>
-          <a class="button--primary">Đặt món online</a>
         </div>
       </div>
     </nav>
@@ -71,55 +54,121 @@
     <p>Trang chủ / Giới thiệu</p>
   </div>
 
-  <div class="container-fluid mb-5">
-    <div class="about-content">
+  <div class="container-fluid mb-5 mt-4">
+    <div class="about-container">
       <div class="row">
         <div class="col-lg-3">
-          <div class="about-content__left mb-3">
+          <div class="about-container__left mb-4">
             <h5 class="text-center pt-1 pb-3 text-uppercase">Danh mục trang</h5>
+            <div class="new-post">
+              <div class="new-post__item">
+                <img src="assets/images/chaoluon.png" alt="photo">
+                <div class="ml-2">
+                  <a>Cháo lươn đặc sản Vinh - Nghệ An</a>
+                  <p>Tin tức - 20.1.2022</p>
+                </div>
+              </div>
+              <hr>
+
+              <div class="new-post__item">
+                <img src="assets/images/cathu.png" alt="photo">
+                <div class="ml-2">
+                  <a>Cá thu</a>
+                  <p>Tin tức - 20.1.2022</p>
+                </div>
+              </div>
+              <hr>
+
+              <div class="new-post__item">
+                <img src="assets/images/banhda.jpeg" alt="photo">
+                <div class="ml-2">
+                  <a>Bánh đa xúc hến</a>
+                  <p>Tin tức - 20.1.2022</p>
+                </div>
+              </div>
+              <hr>
+
+              <div class="new-post__item">
+                <img src="assets/images/giome.jpg" alt="photo">
+                <div class="ml-2">
+                  <a> Tương và giò bê - đặc sản Nam Đàn Nghệ An</a>
+                  <p>Tin tức - 20.1.2022</p>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="about-content__left mb-4">
+            <h5 class="text-center pt-1 pb-3 text-uppercase">Danh mục tin tức</h5>
             <ul>
-              <li><a href="#">Trang chủ</a></li>
-              <li><a href="#">Sản phẩm</a><i class="fal fa-plus"></i></li>
-              <li><a href="#">Product Views</a><i class="fal fa-plus"></i></li>
-              <li><a href="#">Blog</a></li>
+              <li><a href="#">Tìm kiếm</a></li>
               <li><a href="#">Giới thiệu</a></li>
-              <li><a href="#">Liên hệ</a></li>
+              <li><a href="#">Điều khoản dịch vụ</a></li>
+              <li><a href="#">Món ăn nổi tiếng</a></li>
+              <li><a href="#">Đặc sản vùng miền</a></li>
             </ul>          
           </div> 
-          <img src="assets/images/master-chef.webp" alt="*" />
         </div>
         <div class="col-lg-9">
-          <div class="about-content__right">
-            <h3>Giới thiệu</h3>
-            <p>Trang giới thiệu giúp khách hàng hiểu rõ hơn về cửa hàng của bạn. Hãy cung cấp thông tin cụ thể về việc kinh doanh, về cửa hàng, thông tin liên hệ. Điều này sẽ giúp khách hàng cảm thấy tin tưởng khi mua hàng trên website của bạn.</p>
-            <p class="my-2">Một vài gợi ý cho nội dung trang Giới thiệu:</p>
-            <ul>
-              <li>
-                Bạn là ai
-              </li>
-              <li>
-                Giá trị kinh doanh của bạn là gì
-              </li>
-              <li>
-                Địa chỉ cửa hàng
-              </li>
-              <li>
-                Bạn đã kinh doanh trong ngành hàng này bao lâu rồi
-              </li>
-              <li>
-                Bạn kinh doanh ngành hàng online được bao lâu
-              </li>
-              <li>
-                Đội ngũ của bạn gồm những ai
-              </li>
-              <li>
-                Thông tin liên hệ
-              </li>
-              <li>
-                Liên kết đến các trang mạng xã hội (Twitter, Facebook)
-              </li>
-            </ul>
-            <p>Bạn có thể chỉnh sửa hoặc xoá bài viết này tại <a href="#">đây</a> hoặc thêm những bài viết mới trong phần quản lý <a href="#">Trang nội dung.</a> </p>
+          <div class="about-container__right">
+            <h3>Tin tức</h3>
+            <div class="posts mt-4">
+
+              <div class="posts-item">
+                <div class="hidden image">
+                  <img src="assets/images/giome.jpg" class="img" alt="photo">
+                </div>
+                <div class="pl-4 pt-1">
+                  <a href="#">Tương và giò bê - đặc sản Nam Đàn Nghệ An</a>
+                  <p class="my-2 author">Người viết: Food / 20.1.2021</p>
+                  <p>Những năm gần đây, giò bê đặc sản Nam Đàn Nghệ An nổi tiếng cả nước về độ thơm ngon và đặc biệt...</p>
+                </div>
+              </div>
+
+              <div class="posts-item">
+                <div class="hidden image">
+                  <img src="assets/images/chedung.jpg" class="img" alt="photo">
+                </div>
+                <div class="pl-4 pt-1">
+                  <a href="#">Tương và giò bê - đặc sản Nam Đàn Nghệ An</a>
+                  <p class="my-2 author">Người viết: Food / 20.1.2021</p>
+                  <p>Gợi ý những địa điểm có món bánh Pizza trái cây mới lạ và rất hiếm chỗ bán ở Sài Gòn, hứa hẹn sẽ làm...</p>
+                </div>
+              </div>
+
+              <div class="posts-item">
+                <div class="hidden image">
+                  <img src="assets/images/thitchuot.jpg" class="img" alt="photo">
+                </div>
+                <div class="pl-4 pt-1">
+                  <a href="#">Thịt chuột - đặc sản Yên Thành - Nghệ An</a>
+                  <p class="my-2 author">Người viết: Food / 20.1.2021</p>
+                  <p>Đây là một trong những món ăn độc đáo bạn nên thử khi đi du lịch Nghệ An. Chuột đồng được người dan, ...</p>
+                </div>
+              </div>
+
+              <div class="posts-item">
+                <div class="hidden image">
+                  <img src="assets/images/canhngao.png" class="img" alt="photo">
+                </div>
+                <div class="pl-4 pt-1">
+                  <a href="#">Canh ngao</a>
+                  <p class="my-2 author">Người viết: Food / 20.1.2021</p>
+                  <p>Đây là một trong những món ăn Nghệ An về đêm nổi tiếng tại biển cửa Lò. Ngao sau khi được luộc chín, ...</p>
+                </div>
+              </div>
+              
+              <div class="posts-item">
+                <div class="hidden image">
+                  <img src="assets/images/cheongheu.jpg" class="img" alt="photo">
+                </div>
+                <div class="pl-4 pt-1">
+                  <a href="#">Tương và giò bê - đặc sản Nam Đàn Nghệ An</a>
+                  <p class="my-2 author">Người viết: Food / 20.1.2021</p>
+                  <p>Gợi ý những địa điểm có món bánh Pizza trái cây mới lạ và rất hiếm chỗ bán ở Sài Gòn, hứa hẹn sẽ làm...</p>
+                </div>
+              </div>
+             
+            </div>
           </div>
         </div>
       </div>
@@ -190,7 +239,7 @@
   <footer class="mt-5">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-6 col-md-6">
           <h3 class="footer-item__title">Order Food</h3>
           <p>Được thiết kế bới các thành viên sau: </p>
           <ul class="menu-link__custom">
@@ -199,25 +248,7 @@
             <li><a href="#">John Wead</a></li>
           </ul>
         </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="footer-item__title">Chinh sách</h5>
-          <ul class="menu-link__custom">
-            <li><a href="#">Tìm kiếm</a></li>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Chính sách đổi trả</a></li>
-            <li><a href="#">Chính sách bảo mật</a></li>
-            <li><a href="#">Chính sách dịch vụ</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <h5 class="footer-item__title">Sản phẩm</h5>
-          <ul class="menu-link__custom">
-            <li><a href="#">Sản phẩm khuyến mãi</a></li>
-            <li><a href="#">Sản phẩm nổi bật</a></li>
-            <li><a href="#">Tất cả sản phẩm</a></li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-6 col-md-6">
           <h5 class="footer-item__title">Menu</h5>
           <ul class="menu-link__custom">
             <li><a href="#">Trang chủ</a></li>

@@ -118,6 +118,7 @@ p, a, span {
   font-weight: 400;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+  font-family: "Oswald" !important;
 }
 .main-header__menu ul li.active a {
   color: #202020;
@@ -579,6 +580,12 @@ footer ul.menu-link__custom li a:hover {
 }
 .contact iframe {
   height: 100vh;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .contact iframe {
+    height: 300px;
+  }
 }
 
 p.text-letter {
@@ -607,6 +614,109 @@ input.input-custom:focus, textarea.input-custom:focus {
   border: none;
   padding: 0 30px !important;
   margin-top: 10px;
+}
+
+.story {
+  background-color: #f7f7f7;
+}
+.story-left {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.story-left h4 {
+  margin-top: 50px;
+}
+@media (max-width: 767px) {
+  .story-left h4 {
+    margin-top: 0px;
+  }
+}
+.story-left h6 {
+  color: #eb0029;
+}
+.story-left ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+.story-left ul li {
+  margin: 10px 0;
+}
+.story img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about-container__left .new-post__item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.about-container__left .new-post__item img {
+  width: 80px !important;
+  height: auto;
+  object-fit: cover;
+}
+.about-container__left .new-post__item a {
+  color: #333333;
+  font-size: 14px;
+  letter-spacing: 1.05px;
+  line-height: 10px !important;
+}
+.about-container__left .new-post__item a:hover {
+  color: #eb0029;
+}
+.about-container__left .new-post__item p {
+  font-size: 14px;
+  color: #333333;
+}
+.about-container__right .posts-item {
+  margin: 20px 0;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .about-container__right .posts-item {
+    flex-direction: column;
+  }
+  .about-container__right .posts-item img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 200px;
+  }
+}
+.about-container__right .posts-item .image {
+  overflow: hidden;
+  width: 280px;
+}
+.about-container__right .posts-item img {
+  display: block;
+  width: 280px !important;
+  max-width: 280px !important;
+  max-height: 168px;
+  object-fit: cover;
+  transition: 0.4s;
+}
+.about-container__right .posts-item img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.about-container__right .posts-item a {
+  color: #333333;
+}
+.about-container__right .posts-item a:hover {
+  color: #eb0029;
+}
+.about-container__right .posts-item p.author {
+  color: #333333;
+}
+.about-container__right .posts-item p:last-child {
+  letter-spacing: 1.05px;
+  font-size: 15px;
+}
+
+.hidden {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
